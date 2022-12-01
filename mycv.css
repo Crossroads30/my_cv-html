@@ -432,9 +432,9 @@ p, h2, h3, li, a{
 }
 .cv-conteiner {
   display: flex;
-    max-width: 800px;
-    height: auto;
-    margin: 50px auto;
+  max-width: 700px;
+  height: auto;
+  margin: 50px auto;
 }
 .left-column {
   background:   #383838;
@@ -498,8 +498,6 @@ p, h2, h3, li, a{
 }
 .fa-location-dot {
   margin: 0 2px 5px;
-}
-.left-column__skills {
 }
 .skills__title {
   letter-spacing: 2px;
@@ -619,8 +617,8 @@ p, h2, h3, li, a{
   z-index: 5;
   bottom: 40px;
 }
-.left-column__social a{
-  
+.social__title {
+  letter-spacing: 2px;
 }
 .social__title::after {
   content: '';
@@ -630,15 +628,52 @@ p, h2, h3, li, a{
   display: block;
   margin-top: 10px;
 }
-.social a{
-  text-decoration: none;
+.social__list {
+  padding-top: 10px;
 }
-.social__title {
-  letter-spacing: 2px;
+.social__list a{
+  text-transform: uppercase;
+  color:#A9A9A9;
+}
+.fa-github {
+  margin-right: 10px;
+}
+.fa-linkedin {
+  margin-right: 10px;
+}
+.fa-youtube {
+  margin-right: 10px;
 }
 .right-column {
+  padding: 100px 25px;
 }
 .right-column__mame {
+  position: relative;
+}
+.right-column__mame h1 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.right-column__mame h3 {
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin:0 0 40px 50px;
+}
+.right-column__mame h3::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 35px;
+  background: #000;
+  position: absolute;
+  margin-left: -20px;
+  bottom: 0px;
+
+
 }
 .right-column__about-myself {
 }
