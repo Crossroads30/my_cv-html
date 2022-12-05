@@ -433,8 +433,10 @@ p, h2, h3, li, a{
 .cv-conteiner {
   display: flex;
   max-width: 700px;
-  height: auto;
   margin: 50px auto;
+  border: 2px solid;
+  border-color: #A9A9A9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .left-column {
   background:   #383838;
@@ -655,13 +657,13 @@ p, h2, h3, li, a{
   font-weight: 900;
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+  padding-left: 20px;
 }
 .right-column__mame h3 {
-  font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
-  margin:0 0 40px 50px;
+  margin:0 0 66px 60px;
 }
 .right-column__mame h3::before {
   content: '';
@@ -672,17 +674,86 @@ p, h2, h3, li, a{
   position: absolute;
   margin-left: -20px;
   bottom: 0px;
-
-
 }
-.right-column__about-myself {
+.right-column__about-myself h2 {
+  font-weight: 700;
+  letter-spacing: 2px;
 }
-.right-column__work-experience {
+.right-column__about-myself p {
+  line-height: 22px;
+  color: #707070;
 }
-.work-experience__title {
+.right-column__about-myself h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin: 10px 0 15px 0;
 }
-.right-column__education {
+.fa-circle-user {
+  color: #000;
+  margin-right: 5px;
 }
-.education__title {
+.right-column__work-experience h2 {
+  margin-top: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.right-column__work-experience h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin: 10px 0 15px 0;
+}
+.fa-briefcase {
+  color: #000;
+  margin-right: 5px;
+}
+.right-column__work-experience p {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 35px;
+  margin-left: 10px;
+}
+.right-column__education h2 {
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.right-column__education h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  margin: 10px 0 25px 0;
+}
+.fa-readme {
+  color: #000;
+  margin-right: 5px;
+}
+.right-column__education h3 {
+  position: relative;
+  padding:0 0 5px 50px;
+  color: #707070;
+}
+.right-column__education p {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 16px;
+  margin: 0 0 15px 60px;
+}
+.right-column__education h3::before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 55px;
+  background: #000;
+  position: absolute;
+  margin-left: -20px;
+  top: 0px;
 }
 
