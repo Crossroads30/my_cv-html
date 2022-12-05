@@ -432,15 +432,18 @@ p, h2, h3, li, a{
 }
 .cv-conteiner {
   display: flex;
-  max-width: 700px;
+  width: 700px;
   margin: 50px auto;
-  border: 2px solid;
-  border-color: #A9A9A9;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  border: 1px solid;
+  border-color:  #A9A9A9;
+  outline: 1px solid;
+  box-shadow:0 0 10px rgba(0,0,0,0.5);
 }
 .left-column {
   background:   #383838;
   color: #fff;
+  outline: 1px solid;
+  outline-color:  #383838;
   padding: 100px 50px;
 }
 .left__foto {
@@ -648,6 +651,7 @@ p, h2, h3, li, a{
 }
 .right-column {
   padding: 100px 25px;
+  background: #F5F5F5;
 }
 .right-column__mame {
   position: relative;
