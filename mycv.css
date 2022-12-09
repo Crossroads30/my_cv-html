@@ -83,7 +83,7 @@ body {
   font-weight: 400;
   cursor: default;
 }
-p, h2, h3, li, a{
+.left-column p, h2, h3, li, a{
   padding-bottom: 10px;
 }
 .html{
@@ -103,7 +103,7 @@ p, h2, h3, li, a{
 .header__foto-wrapper {
   width: 140px;
   background:#383838;
-  padding: 50px 50px 20px;
+  padding: 50px 50px 50px;
 }
 .header__foto {
   width: 140px;
@@ -126,7 +126,7 @@ p, h2, h3, li, a{
   font-weight: 900;
   text-transform: uppercase;
   position: relative;
-  margin-left: 60px;
+  margin-left: 20px;
 }
 .header__title h3::before {
   content: '';
@@ -148,13 +148,13 @@ p, h2, h3, li, a{
   padding: 0 35px;
 }
 .left-column__contacts {
-  margin: 20px 0;
+  margin-bottom: 30px;
 }
 .contacts__title {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 2px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .contacts__title::after {
   content: '';
@@ -199,8 +199,12 @@ p, h2, h3, li, a{
 .fa-location-dot {
   margin: 0 2px 5px;
 }
+.left-column__skills {
+  margin-bottom: 40px;
+}
 .skills__title {
   letter-spacing: 2px;
+  padding-bottom: 30px;
 }
 .skills__title::after {
   content: '';
@@ -213,7 +217,7 @@ p, h2, h3, li, a{
 .skills__list {
   text-transform: uppercase;
   font-size: 12px;
-  padding: 10px 0 10px 12px;
+  padding: 0px 0 20px 12px;
 }
 .skills__list li:last-child::after {
   content: '';
@@ -221,7 +225,7 @@ p, h2, h3, li, a{
   height: 2px;
   background: #707070;
   display: block;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: -12px;
 }
 .skills__scales {
@@ -266,6 +270,7 @@ p, h2, h3, li, a{
 }
 .scales__integrity {
   position: relative;
+  margin-bottom: 20px;
 }
 .integrity__progress {
   display: block;
@@ -274,7 +279,7 @@ p, h2, h3, li, a{
   height: 8px;
   background: #fff;
   margin-left: 50%;
-  bottom: 40px;
+  bottom: 50px;
 }
 .scales__integrity::after {
   content: '';
@@ -282,12 +287,12 @@ p, h2, h3, li, a{
   height: 2px;
   background: #707070;
   display: block;
-  margin: 20px 0px 5px 0px;
+  margin: 30px 0px 5px 0px;
 }
 .scales__english {
   position: relative;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 53px;
 }
 .english__progress {
   display: block;
@@ -321,7 +326,7 @@ p, h2, h3, li, a{
   margin-top: 10px;
 }
 .social__list {
-  padding-top: 10px;
+  padding-top: 20px;
   list-style: none;
 }
 .social__list a {
@@ -338,18 +343,18 @@ p, h2, h3, li, a{
   margin-right: 10px;
 }
 .right-column {
-  padding: 20px 25px 50px;
+  padding: 0px 25px 50px;
   background: #F5F5F5;
 }
 
 .right-column__about-myself h2 {
   font-weight: 700;
   letter-spacing: 2px;
-  padding-bottom: 0;
 }
 .right-column__about-myself p {
   line-height: 22px;
   color: #707070;
+  padding-bottom: 30px;
 }
 .right-column__about-myself h2::after {
   content: '';
@@ -369,7 +374,6 @@ p, h2, h3, li, a{
   margin-right: 5px;
 }
 .right-column__work-experience h2 {
-  padding-bottom: 0;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -379,7 +383,7 @@ p, h2, h3, li, a{
   width: 100%;
   height: 2px;
   background: #000;
-  margin: 10px 0 5px 0;
+  margin: 10px 0 10px 0;
 }
 .fa-briefcase {
   color: #000;
@@ -391,10 +395,12 @@ p, h2, h3, li, a{
   line-height: 35px;
   color: #707070;
   line-height: 20px;
-  padding: 5px 0 15px;
+  padding: 5px 0 30px;
+}
+.right-column__education {
+  padding-bottom: 30px;
 }
 .right-column__education h2 {
-  padding-bottom: 0;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -404,7 +410,7 @@ p, h2, h3, li, a{
   width: 100%;
   height: 2px;
   background: #000;
-  margin: 10px 0 15px 0;
+  margin: 10px 0 25px 0;
 }
 .fa-readme {
   color: #000;
@@ -412,14 +418,14 @@ p, h2, h3, li, a{
 }
 .right-column__education h3 {
   position: relative;
-  padding:0 0 5px 50px;
+  padding:0 0 5px 20px;
   color: #707070;
 }
 .right-column__education p {
   font-size: 12px;
   font-weight: 900;
   line-height: 16px;
-  margin: 0 0 15px 60px;
+  margin: 0 0 20px 20px;
 }
 .right-column__education h3::before {
   content: '';
@@ -436,8 +442,6 @@ p, h2, h3, li, a{
   margin-right: 5px;
 }
 .code-example p {
-  
-  
   padding: 10px;
   font-size: 14px;
 }
@@ -452,7 +456,7 @@ p, h2, h3, li, a{
   width: 100%;
   height: 2px;
   background: #000;
-  margin: 10px 0 15px 0;
+  margin: 10px 0 15px;
 }
 .code__let {
   color: blueviolet;
