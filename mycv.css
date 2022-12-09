@@ -200,7 +200,7 @@ body {
   margin: 0 2px 5px;
 }
 .left-column__skills {
-  margin-bottom: 40px;
+  margin-bottom: 22px;
 }
 .skills__title {
   letter-spacing: 2px;
@@ -292,7 +292,6 @@ body {
 .scales__english {
   position: relative;
   line-height: 22px;
-  margin-bottom: 53px;
 }
 .english__progress {
   display: block;
@@ -398,7 +397,7 @@ body {
   padding: 5px 0 30px;
 }
 .right-column__education {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .right-column__education h2 {
   font-weight: 700;
@@ -410,7 +409,7 @@ body {
   width: 100%;
   height: 2px;
   background: #000;
-  margin: 10px 0 25px 0;
+  margin: 10px 0 15px 0;
 }
 .fa-readme {
   color: #000;
@@ -472,13 +471,15 @@ body {
   background: #707070;
   justify-content: space-around;
   align-items: center;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 .footer__github-link{
   text-decoration: none;
   color: #000;
+  padding-bottom: 0;
 }
 .footer__rs-logo-link {
   display: block;
   width: 100px;
+  padding-bottom: 0;
 }
