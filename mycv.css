@@ -164,6 +164,9 @@ body {
   display: block;
   margin-top: 10px;
 }
+.contacts__list {
+  list-style: none;
+}
 .fa-phone {
   font-size: 16px;
   color: #A9A9A9;
@@ -473,7 +476,7 @@ body {
   align-items: center;
   padding: 10px 0;
 }
-.footer__github-link{
+.footer__github-link {
   text-decoration: none;
   color: #000;
   padding-bottom: 0;
